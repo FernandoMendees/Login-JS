@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-color: #1c1c1c;
+    --card: #303030;
+    --text: #ffffff;
+    --bg-input: #2C2C2C;
+    --buttons: #4f98ff;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text);
+    font-family: Arial, Helvetica, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vh;
+    padding: 10px;
+}
+
+.main-card {
+    background-color: var(--card); 
+    padding: 20px;
+    margin: 20px;
+    width: 100%;
+    max-width: 400px;
+    border-radius: 15px;
+}
+
+.header-card {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.header-card h1 {
+    margin: 5px 0;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 10px;
+    border-radius: 16px;
+}
+
+.form-group legend {
+    margin: 5px;
+    padding: 5px;
+}
+
+.form-group input{
+    background-color: var(--bg-input);
+    padding: 15px;
+    margin: 0 20px;
+    border: 1px solid rgb(112, 112, 112);
+    border-radius: 5px;
+}
+
+.form-group label {
+    margin: 0px 20px;
+}
+
+.form-group button {
+    margin: 10px;
+    padding: 13px;
+    border: none;
+    background-color: var(--buttons);
+    color: white;
+    border-radius: 16px;
+}
+
+.p-login {
+    color: #9b9b9b;
+    text-align: center;
+    font-size: 10px;
+}
