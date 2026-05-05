@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+
+<body>
+
+    <main class="main-card">
+        <header class="header-card">
+            <h1 class="title">Cadastro</h1>
+            <p>Preencha os campos abaixo para criar sua conta e começar agora mesmo.</p>
+        </header>
+
+        <hr>
+
+        <form class="form-register">
+            <fieldset class="form-group">
+                <legend>Confirme os dados</legend>
+
+                <label for="register-name">Nome</label>
+                <input type="text" id="register-name" placeholder="Seu nome" required>
+
+                <label for="register-email">Email</label>
+                <input type="email" id="register-email" placeholder="email@exemplo.com" required>
+
+                <label for="register-password">Senha</label>
+                <input type="password" id="register-password" placeholder="••••••••" required minlength="8">
+
+                <button type="submit">Cadastrar</button>
+            </fieldset>
+        </form>
+
+        <p>Já tem uma conta? Faça <a href="#">login</a>.</p>
+    </main>
+
+</body>
+
+</html>
